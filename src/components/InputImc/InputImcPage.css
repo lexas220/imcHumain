@@ -1,5 +1,7 @@
 .input-page-container {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,40 +10,43 @@
     system-ui,
     -apple-system,
     sans-serif;
-  padding: 2rem;
+  padding: 1.5rem;
+  overflow: hidden;
 }
 
 .imc-card {
   background-color: #efe6dd;
   color: #231f20;
-  padding: 2.5rem;
-  border-radius: 20px;
+  padding: 2rem;
+  border-radius: 18px;
   width: 100%;
-  max-width: 400px;
+  max-width: 380px;
+  box-sizing: border-box;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .imc-title {
   text-align: center;
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
 }
 
 .form-label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
   font-weight: 600;
 }
 
 .form-input {
   width: 100%;
-  padding: 1rem;
+  padding: 0.8rem;
   border: 2px solid transparent;
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: rgba(35, 31, 32, 0.08);
   font-size: 1rem;
   color: #231f20;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.2s ease;
   box-sizing: border-box;
 }
 
@@ -56,16 +61,16 @@
   background-color: #231f20;
   color: #f3dfa2;
   border: none;
-  padding: 1rem;
-  font-size: 1.1rem;
+  padding: 0.9rem;
+  font-size: 1rem;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 1rem;
+  transition: all 0.2s ease;
+  margin-top: 0.5rem;
 }
 
 .btn-submit:hover {
   background-color: #3b3537;
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }

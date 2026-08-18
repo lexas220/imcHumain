@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" rx="110" fill="#231F20" />
+  <path d="M 115 310 A 150 150 0 1 1 385 310" fill="none" stroke="#EFE6DD" stroke-width="32" stroke-linecap="round" opacity="0.9" />
+  <path d="M 215 163 A 150 150 0 0 1 385 310" fill="none" stroke="#F3DFA2" stroke-width="32" stroke-linecap="round" />
+  <polygon points="240,260 260,260 300,170" fill="#F3DFA2" />
+  <circle cx="250" cy="260" r="26" fill="#F3DFA2" />
+  <circle cx="250" cy="260" r="12" fill="#231F20" />
+  <text x="250" y="415" text-anchor="middle" fill="#EFE6DD" font-family="system-ui, sans-serif" font-size="80" font-weight="900" letter-spacing="8">IMC</text>
+</svg>

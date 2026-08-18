@@ -1,5 +1,7 @@
 .result-page-container {
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,23 +10,25 @@
     system-ui,
     -apple-system,
     sans-serif;
-  padding: 2rem;
+  padding: 1.5rem;
+  overflow: hidden;
 }
 
 .result-card {
   background-color: #efe6dd;
   color: #231f20;
-  padding: 2.5rem;
-  border-radius: 20px;
+  padding: 2rem;
+  border-radius: 18px;
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
+  box-sizing: border-box;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .result-title {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  margin: 0 0 1rem 0;
 }
 
 .btn-return {
@@ -32,11 +36,12 @@
   background-color: #f3dfa2;
   color: #231f20;
   text-decoration: none;
-  padding: 0.8rem 2rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 0.95rem;
   font-weight: bold;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-  margin-top: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
 }
 
 .btn-return:hover {
