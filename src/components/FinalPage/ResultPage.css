@@ -1,0 +1,45 @@
+.result-page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #231f20;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  padding: 2rem;
+}
+
+.result-card {
+  background-color: #efe6dd;
+  color: #231f20;
+  padding: 2.5rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.result-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-return {
+  display: inline-block;
+  background-color: #f3dfa2;
+  color: #231f20;
+  text-decoration: none;
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.btn-return:hover {
+  background-color: #231f20;
+  color: #f3dfa2;
+}
