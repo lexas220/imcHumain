@@ -1,0 +1,71 @@
+.input-page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #231f20;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  padding: 2rem;
+}
+
+.imc-card {
+  background-color: #efe6dd;
+  color: #231f20;
+  padding: 2.5rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.imc-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: rgba(35, 31, 32, 0.08);
+  font-size: 1rem;
+  color: #231f20;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #f3dfa2;
+  background-color: #ffffff;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #231f20;
+  color: #f3dfa2;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn-submit:hover {
+  background-color: #3b3537;
+  transform: translateY(-2px);
+}
